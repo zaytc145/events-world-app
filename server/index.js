@@ -6,6 +6,7 @@ import UserModel from "./models/User.js";
 import UserDto from "./DTOs/UserDTO.js";
 import airQualityApi from "./http/airQualityApi.js";
 import EventsService from "./sevices/EventsService.js";
+import HistoryQueryModel from "./models/HistoryQuery.js";
 
 const port = 3001
 const app = express()
@@ -50,12 +51,20 @@ app.post('/register', async (req, res) => {
     res.send(new UserDto(user))
 })
 
-app.post('/events', async (req, res) => {
+app.get('/events', async (req, res) => {
     const {
         city
-    } = req.body
+    } = req.query
     const response = await airQualityApi.get(`feed/${city}`)
     const {data, status} = response.data
+
+    const history = new HistoryQueryModel({
+        city: data.city.name,
+        location: data.city.geo,
+        pollutionData: data.forecast.daily
+    })
+
+    history.save()
 
     if (status === 'error') {
         return res.status(404).send(data)
