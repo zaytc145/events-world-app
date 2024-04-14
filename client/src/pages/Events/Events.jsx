@@ -1,9 +1,9 @@
-import {Alert, Button, Card, Col, Form, Input, InputNumber, Row, Statistic} from "antd";
-import {useCallback, useState} from "react";
-import baseApi from "../../http/appApi";
+import {Alert, Card, Col, Form, Input, Row, Statistic} from "antd";
+import {useCallback} from "react";
 import LocationDataChart from "./LocationDataChart";
 import LocationDataTable from "./LocationDataTable/LocationDataTable";
 import {useGetPollutionDataMutation} from "../../http/pollutionApi";
+import Button from "../../components/Button";
 
 const Events = () => {
     const [getPollutionData, {data = {
@@ -14,10 +14,9 @@ const Events = () => {
             datasets: []
         }
     }, isLoading, isError, error }] = useGetPollutionDataMutation();
-    console.log(error)
+
     const onSubmit = useCallback(async (formData) => {
         getPollutionData(formData)
-        return
     }, [])
 
     return <Row gutter={[24, 24]}>
