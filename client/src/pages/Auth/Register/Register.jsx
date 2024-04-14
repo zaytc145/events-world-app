@@ -1,4 +1,4 @@
-import {Button, Form, Input} from "antd";
+import {Form, Input} from "antd";
 import {useCallback, useState} from "react";
 import loginRule from "../validationRules/loginRule";
 import emailRule from "../validationRules/emailRule";
@@ -8,6 +8,7 @@ import baseApi from "../../../http/appApi";
 import {EVENTS} from "../../../routes/routerLinks";
 import useAuth from "../../../context/AuthContext/useAuth";
 import {useNavigate} from "react-router-dom";
+import Button from "../../../components/Button";
 
 const Register = () => {
     const [isLoading, setIsLoading] = useState(false);

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32c9b935-27e9-41dc-8d40-a39df3db5bbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.storybook/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.storybook/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/cypress.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/cypress/e2e/auth.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/cypress/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/cypress/support/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/cypress/support/e2e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/Button.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/accessibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/accessibility.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/addon-library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/assets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/avif-test-image.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/context.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/discord.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/docs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/figma-plugin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/styling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/testing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/theming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/tutorials.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stories/assets/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layouts/DefaultLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layouts/DefaultLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth/Register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth/Register/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Events/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Events/Events.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\php\php.exe" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2f1MYGaBl0ZR68jmKg4oNdEzylQ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "E2E",
+    "ignore_missing_gitignore": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.storybook">
+    <configuration name="cypress:open" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cypress:open" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.cypress:open" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32c9b935-27e9-41dc-8d40-a39df3db5bbf" name="Changes" comment="" />
+      <created>1712964177104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712964177104</updated>
+      <workItem from="1712964178706" duration="12580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

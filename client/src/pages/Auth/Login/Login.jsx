@@ -1,9 +1,10 @@
-import {Alert, Button, Form, Input} from "antd";
+import {Alert, Form, Input} from "antd";
 import {useCallback, useState} from "react";
 import useAuth from "../../../context/AuthContext/useAuth";
 import {EVENTS} from "../../../routes/routerLinks";
 import {useNavigate} from "react-router-dom";
 import baseApi from "../../../http/appApi";
+import Button from "../../../components/Button";
 
 const Login = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -41,7 +42,7 @@ const Login = () => {
             <Input.Password/>
         </Form.Item>
         <Form.Item>
-            <Button type="primary" htmlType="submit" style={{width: '100%'}} loading={isLoading}>login</Button>
+            <Button className={"login-btn"} type="primary" htmlType="submit" style={{width: '100%'}} loading={isLoading}>login</Button>
         </Form.Item>
     </Form>
 }
